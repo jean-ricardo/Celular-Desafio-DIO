@@ -4,19 +4,15 @@ www.dio.me
 ## Desafio de projeto
 Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de orientação a objetos, da trilha .NET da DIO.
 
-## Contexto
-Você é responsável por modelar um sistema que trabalha com celulares. Para isso, foi solicitado que você faça uma abstração de um celular e disponibilize maneiras de diferentes marcas e modelos terem seu próprio comportamento, possibilitando um maior reuso de código e usando a orientação a objetos.
+Objective
+To model a system that works with mobile phones and provides ways for different brands and models to have their own behavior, enabling greater code reuse and utilizing object-oriented principles.
 
-## Proposta
-Você precisa criar um sistema em .NET, do tipo console, mapeando uma classe abstrata e classes específicas para dois tipos de celulares: Nokia e iPhone. 
-Você deve criar as suas classes de acordo com o diagrama abaixo:
+Construction
+A system was developed in .NET, of console type, mapping an abstract class and specific classes for two types of mobile phones: Nokia and iPhone.
+The classes were created according to the diagram below:
 
-![Diagrama classes](Imagens/diagrama.png)
 
-## Regras e validações
-1. A classe **Smartphone** deve ser abstrata, não permitindo instanciar e servindo apenas como modelo.
-2. A classe **Nokia** e **Iphone** devem ser classes filhas de Smartphone.
-3. O método **InstalarAplicativo** deve ser sobrescrito na classe Nokia e iPhone, pois ambos possuem diferentes maneiras de instalar um aplicativo.
-
-## Solução
-O código está pela metade, e você deverá dar continuidade obedecendo as regras descritas acima, para que no final, tenhamos um programa funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
+Rules and Validations
+1.The Smartphone class is abstract;
+2.The Nokia and iPhone classes are child classes of Smartphone;
+3.The InstallApplication method must be overridden in the Nokia and iPhone classes, as both have different ways of installing an application.
